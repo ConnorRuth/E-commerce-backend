@@ -23,7 +23,7 @@ clone this code your machine run npm i to install all packages and fill the envi
 
 ## Usage
 Once the database schema has been completed in mysql and seeded through npm run seed the user can run multiple different route calls in insomnia to interact with the server such as:
-get all categories, get all products, get all tags, get category by id, get product by id, get tag by id, put an update to categories, put an update to products, put an update to tags,  
+get all categories, get all products, get all tags, get category by id, get product by id, get tag by id, put an update to categories, put an update to products, put an update to tags, post a new category, post a new product, post a tag, delete a tag, delete a product, and finally delete a category. for more detailed walkthrough refer to the video under questions.
 
 ## Contributions
 none at this time
@@ -31,6 +31,6 @@ none at this time
 ## Questions
 You can find my github at https://github.com/connorRuth
 
-for a more in depth walkthrough of the program in usage see this video:
+for a more in depth walkthrough of the program in usage see this video: https://youtu.be/KPHgHW782M8
 ## Licence
   Distributed under the MIT License. See https://opensource.org/licenses/MIT for more information
