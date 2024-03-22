@@ -58,8 +58,8 @@ router.put('/:id', (req, res) => {
         },
       }
     )
-      .then((updatedCategory) => {
-        res.json(updatedCategory);
+      .then(() => {
+        res.json({ message: `Category successfully changed to ${req.body.category_name}` });
       })
   } catch(err) {
     res.status(500).json(err);
